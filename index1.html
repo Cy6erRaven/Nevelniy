@@ -1,0 +1,21 @@
+<style>
+    lable{position:relative;}
+    lable:first-letter:{color:blue;font-size:50px;}
+    img{
+        
+        display:none;
+        width:85%;
+        height: auto;
+    
+    }
+    #l1{z-index:-1;display:none;color:red;}
+    #click:checked ~ div lable{font-size:30px;display:block;}
+    #click:checked ~ div img{display:block;}
+    
+</style>
+<span>Нажми на флажок:</span><input type="checkbox" id="click">
+
+<div><lable for="click"id="l1">Невельный БЛЭТ!!!</lable>
+<img src="nevelniy.jpg">
+</div>
+
